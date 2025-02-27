@@ -16,8 +16,8 @@ class Example
     }
 class Example1 extends Example             // here we have variable of EXamples also and khud k bhi x , h      SO IF we want to access the variable of f3() the n use this.x and if we want to access the variables of parent (Example) then use super.x keyyword
 {
-    int x , y;
-    void f3(int x , int y)
+    int x , y;  // this is of example1
+    void f3(int x , int y) // this is of example (parent)
     {
         super.x = x;
         super.y = y;
@@ -36,5 +36,5 @@ class Example1 extends Example             // here we have variable of EXamples 
         e1.f4();
 
     }
- }
+  }
  
